@@ -66,7 +66,7 @@ function ListaDeTarefas() {
 
     return (
         <div className="lista-de-tarefas">
-            <h1>Tarefas Etec</h1>
+            <h1>Produtos Etec</h1>
             <Navbar />
             {mostrarFormulario && (
                 <div className="adicionar-tarefa">
@@ -74,7 +74,7 @@ function ListaDeTarefas() {
                         type="text"
                         value={novaTarefa}
                         onChange={(e) => setNovaTarefa(e.target.value)}
-                        placeholder="Digite uma nova tarefa"
+                        placeholder="Digite um novo produto"
                     />
                     <button onClick={adicionarTarefa}>Adicionar</button>
                 </div>
